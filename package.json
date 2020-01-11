@@ -1,0 +1,41 @@
+{
+  "name": "express-log-psql",
+  "version": "1.0.0",
+  "description": "Express middleware based off morgan to log into postgres (psql) database. Simple and effective.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randysimpson/express-log-psql.git"
+  },
+  "keywords": [
+    "Express",
+    "Postgres",
+    "PostgreSQL",
+    "Psql",
+    "Log",
+    "Logger",
+    "Logging",
+    "SQL",
+    "Morgan"
+  ],
+  "author": {
+    "email": "chipdawg112@msn.com",
+    "name": "Randall Simpson"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/randysimpson/express-log-psql/issues"
+  },
+  "homepage": "https://github.com/randysimpson/express-log-psql#readme",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "debug": "^4.1.1",
+    "depd": "^2.0.0",
+    "on-finished": "^2.3.0",
+    "on-headers": "^1.0.2",
+    "pg": "^7.17.0"
+  }
+}
